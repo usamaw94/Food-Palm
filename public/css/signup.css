@@ -1,0 +1,166 @@
+.signup-form-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background: rgba(255, 100, 75, 0.78);
+    color: white;
+    overflow-y: auto;
+}
+
+.col-md-5 , .col-sm-6 , .col-xs-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.signup-tabs-container {
+    background: black;
+}
+
+.signup-tabs {
+    width: 100%;
+    margin-left: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-tabs .active {
+    background: #ff644b;
+    color: white;
+}
+
+.tab-item {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.5s;
+    background: white;
+    cursor: pointer;
+    color: #ff644b;
+}
+
+.login-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.or-container {
+    margin-top: 14px;
+}
+
+.seperator-container {
+    margin-top: 10px;
+}
+
+.seperator {
+    border: 1px solid white;
+}
+
+
+.signup-container {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.signup-container .input-group {
+    margin-bottom: 26px;
+}
+
+.signup-container .input-group-addon {
+    border-radius: 0;
+    background: white;
+    color: #ff644b;
+    border: 3px solid white;
+}
+
+.signup-form-label {
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.signup-container .form-control {
+    background: transparent;
+    border-radius: 0;
+    border: 3px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signup-container .form-control:focus {
+    box-shadow: none;
+}
+
+.signup-container .form-control::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.51);
+}
+
+.signup-container .form-control::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(255, 255, 255, 0.51);
+}
+.signup-container .form-control:-ms-input-placeholder { /* IE 10+ */
+    color: rgba(255, 255, 255, 0.51);
+}
+
+
+.signup-container .input-group-btn {
+    border-radius: 0;
+    background: white;
+    border: none;
+}
+
+.signup-container .input-group-btn .btn-default{
+    border-radius: 0;
+    border: 0;
+    color: #ff644b;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-signup {
+    background: white;
+    color: #ff644b;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 0;
+    transition: 0.5s;
+    border: 3px solid white;
+}
+
+.btn-signup:hover {
+    background: transparent  ;
+    color: white;
+}
+
+.signup-container .select2-container--default .select2-selection--single .select2-selection__rendered {
+    background: rgba(255, 100, 75, 0.77);
+    color: white;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid white;
+}
+
+.signup-container .select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+.signup-container .select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: rgba(255, 255, 255, 0.51);
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: white transparent transparent transparent;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent white transparent;
+}

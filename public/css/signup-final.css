@@ -1,0 +1,425 @@
+@font-face {
+    font-family: siteFont3;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: siteSemiBoldFont3;
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: siteMediumFont3;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: siteBoldFont3;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: siteExtraBoldFont3;
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+.font-red {
+    color: #e30000;
+}
+
+.font-orange {
+    color:#e8450a;
+}
+
+.font-white {
+    color:white;
+}
+
+.font-regular {
+    font-family: siteFont3;
+}
+
+.font-medium {
+    font-family: siteMediumFont3;
+}
+
+.font-semi-bold {
+    font-family: siteSemiBoldFont3;
+}
+
+.font-bold {
+    font-family: siteBoldFont3;
+}
+
+.font-extra-bold {
+    font-family: siteExtraBoldFont3;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.signup-left {
+    background: #ee602d;
+    /*background: #e8450a;*/
+    height: 100%;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    overflow-y: auto;
+    -webkit-box-shadow: 3px 0px 5px 0px rgb(171, 167, 171);
+    -moz-box-shadow: 3px 0px 5px 0px rgb(171, 167, 171);
+    box-shadow: 3px 0px 5px 0px rgb(171, 167, 171);
+    -webkit-animation-name: leftSlider; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: leftSlider;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes leftSlider {
+    0%   {background-color:red; left:-500px; top:0px;}
+    100%  {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes leftSlider {
+    0%   {background-color:red; left:-500px; top:0px;}
+    100%  {left:0px; top:0px;}
+}
+
+.left-heading-container {
+    padding-bottom: 40px;
+    border-bottom: 2px solid #d33e09;
+    background: #e8450a;
+    padding-top: 20px;
+}
+
+.go-back {
+    width: 25px;
+    background: white;
+    /*color: #fe5619;*/
+    color: #e8450a;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.go-back:hover {
+    color: #333333;
+}
+
+.left-heading-container p {
+    margin-left: 73px;
+    font-size: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.seperator-white {
+    border: 3px solid white;
+    width: 80px;
+    margin: 0;
+    margin-left: 73px;
+}
+
+.signup-option-container {
+    background: #e8450a;
+    padding-top: 20px;
+    font-size: 19px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #d33e09;
+}
+
+.signup-option {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.signup-option:hover {
+    font-family: siteBoldFont3;
+}
+
+.list-pointer {
+    border: 1px solid white;
+    border-left: none;
+    width: 40px;
+    height: 20px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 3px;
+    transition: 0.5s;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.list-active {
+    background: white;
+}
+
+
+.login-container {
+    background: #ee602d;
+    bottom: 0;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.login-link {
+    color: white;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.login-link:hover {
+    text-decoration: none;
+    color: #333333;
+}
+
+#registerBranch{
+    display: none;
+}
+
+.signup-right {
+    padding: 70px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    -webkit-animation-name: rightFadeIn; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease;
+    animation-name: rightFadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes rightFadeIn {
+    0%   {opacity: 0}
+    100%  {opacity: 1}
+}
+
+/* Standard syntax */
+@keyframes rightFadeIn {
+    0%   {opacity: 0}
+    100%  {opacity: 1}
+}
+
+.seperator-orange {
+    border: 3px solid #e8450a;
+    width: 80px;
+    margin: 0;
+}
+
+.mobile-content {
+    padding-left: 0;
+    display: none;
+}
+
+.mobile-content .col-md-12 {
+    padding-left: 0;
+}
+
+.mobile-content .signup-options-container {
+    color: #bdbdbd;
+}
+
+.mobile-content .mobile-signup-option {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.mobile-content .mobile-signup-option:hover {
+    color: #e8450a;
+}
+
+.m-active {
+    color: #e8450a;
+    font-family: siteExtraBoldFont3;
+    transition: .5s;
+}
+
+.mobile-login {
+    margin-top: 20px;
+    color: #bdbdbd;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.mobile-login:hover {
+    color: #e8450a;
+}
+
+.signup-form-container {
+    margin-top: 40px;
+}
+
+.signup-form-container .form-label {
+    color: #909090;
+    font-size: 15px;
+}
+
+.signup-form-container .form-control {
+    border-radius: 0;
+}
+
+.signup-form-container .form-control:focus {
+    box-shadow: none;
+    border-color: #e8450a;
+}
+
+.form-error {
+    border-color: #ba0000;
+}
+
+.signup-form-container .btn-default {
+    border-radius: 0;
+}
+
+.feilds-container {
+    margin-bottom: 20px;
+}
+
+.google-map {
+    width: 100%;
+    height: 400px;
+}
+
+.btn-submit {
+    border-radius: 0;
+    background: #e8450a;
+    color: white;
+    font-family: siteSemiBoldFont3;
+    font-size: 17px;
+    transition: .3s;
+}
+
+.btn-submit:hover {
+    background: #333333;
+    color: white;
+}
+
+.signup-form-container .select2-container--default .select2-selection--single .select2-selection__rendered {
+    border-radius: 0;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.signup-form-container .select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+.signup-form-container .select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: rgba(255, 255, 255, 0.51);
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: white transparent transparent transparent;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent white transparent;
+}
+
+
+
+@media (max-width: 1170px){
+    .left-heading-container p {
+        margin-left: 30px;
+    }
+
+    .seperator-white {
+        margin-left: 30px;
+    }
+}
+
+
+@media (max-width: 991px){
+    .left-heading-container p {
+        margin-left: 20px;
+        font-size: 30px;
+        padding-right: 20px;
+    }
+
+    .seperator-white {
+        margin-left: 20px;
+        width: 40px;
+    }
+
+    .signup-option-container {
+        padding-top: 10px;
+        font-size: 10px;
+        padding-bottom: 50px;
+    }
+
+    .signup-option {
+        margin-top: 15px;
+    }
+
+    .list-pointer {
+        width: 20px;
+        height: 10px;
+        margin-right: 10px;
+    }
+
+    .login-container {
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+
+    .login-link {
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .signup-left {
+        display: none;
+    }
+
+    .signup-right {
+        padding: 20px;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .signup-heading {
+        display: none;
+    }
+
+    .mobile-content {
+        display: block;
+    }
+}
+
+@media (max-width: 465px) {
+    .google-map {
+        height: 200px;
+    }
+}

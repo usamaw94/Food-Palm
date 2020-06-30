@@ -1,0 +1,220 @@
+@font-face {
+    font-family: siteFont;
+    src: url(../fonts/Monda-Regular.ttf);
+}
+
+@font-face {
+    font-family: siteFont2;
+    src: url(../fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: siteFont3;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: siteBoldFont3;
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: siteBoldFont;
+    src: url(../fonts/Monda-Bold.ttf);
+}
+
+
+body {
+    font-family: siteFont3;
+    background: linear-gradient(to bottom right, #fe7e5a, #fc9035);
+}
+
+.registration-container {
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.register-content {
+    padding-top: 25px;
+    /*background: rgba(255, 100, 75, 0.89);*/
+    background: #333333;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    min-height: 400px;
+    color: white;
+}
+
+.btn-signup {
+    margin-top: 30px;
+    background: white;
+    color: #ff644b;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.register-content .active {
+    color: #3a1d1c;
+    font-family: siteBoldFont3;
+}
+
+.register-form {
+    padding-top: 27px;
+    background: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.seperator {
+    width: 70%;
+    border-top: 1px solid #a34239;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.signup-option-list-container {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.signup-option-list {
+    margin-bottom: 20px;
+}
+
+.signup-option-link {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.signup-option-link:hover {
+    text-decoration: none;
+    color: navajowhite;
+}
+
+.register-resturant {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.glyphicon {
+     top: 0px;
+}
+
+.form-heading {
+    margin-bottom: 20px;
+}
+
+.register-resturant .input-group {
+    margin-bottom: 20px;
+}
+
+.register-resturant .input-group .input-group-addon {
+    height: 40px;
+    border-radius: 2px;
+}
+
+.register-resturant .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    height: 40px;
+}
+
+.register-resturant .form-control {
+    height: 40px;
+    border-radius: 2px;
+}
+
+.register-resturant .form-control:focus {
+    box-shadow: none;
+    border-color: #dd8229;
+}
+
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: white;
+    opacity: 1;
+}
+
+.rigister-form-heading {
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    background: #ff644b;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+
+.login-btn:hover {
+    color: white;
+    background: #d9594c;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(118, 118, 118, 0.47);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(118, 118, 118, 0.47);
+    box-shadow: 0px 2px 3px 0px rgba(118, 118, 118, 0.47);
+}
+
+
+
+
+
+
+.register-branch {
+    display: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.register-branch .input-group {
+    margin-bottom: 20px;
+}
+
+.register-branch .input-group .input-group-addon {
+    height: 40px;
+    border-radius: 2px;
+}
+
+.register-branch .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    height: 40px;
+}
+
+.register-branch .form-control {
+    height: 40px;
+    border-radius: 2px;
+}
+
+.register-branch .form-control:focus {
+    box-shadow: none;
+    border-color: #dd8229;
+}
+
+
+
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 3px;
+    padding-bottom: 4px;
+    padding-top: 3px;
+    padding-left: 4px;
+    height: 40px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: auto;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+    padding-top: 32px;
+    padding-right: 26px;
+}

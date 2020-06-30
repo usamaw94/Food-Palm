@@ -1,0 +1,14 @@
+.img-container {
+    background: url(../images/102.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    height: auto;
+    background-attachment: fixed;
+    margin-right: auto;
+    margin-left: auto;
+    background-position: center;
+    transition: background-size .5s;
+}
+.img-container:hover {
+    background-size: 200%;
+}

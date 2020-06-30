@@ -1,0 +1,183 @@
+/*.product {*/
+    /*background: url(../images/widePolygonr.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100%;*/
+    /*background-attachment: scroll;*/
+    /*transition: background-size .5s;*/
+
+    /*background-color: #940214;*/
+    /*color: whitesmoke;*/
+    /*padding-top: 1px;*/
+    /*padding-left: 10px;*/
+    /*padding-bottom: 15px;*/
+    /*transition: .5s;*/
+    /*min-height: 150px;*/
+    /*margin-right: -15px;*/
+/*}*/
+
+.product {
+    background-color: white;
+    color: #940214;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    transition: .5s;
+    min-height: 150px;
+    /*margin-right: -15px;*/
+    border-top: 3px solid #940214;
+}
+
+.product:hover {
+    border-color: #940214;
+
+    -webkit-box-shadow: 0px 3px 2px #aab2bd;
+    -moz-box-shadow: 0px 3px 2px #aab2bd;
+    box-shadow: 0px 3px 2px #aab2bd;
+}
+
+/*.category {*/
+    /*background: url(../images/widePolygonp.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100%;*/
+    /*background-attachment: scroll;*/
+    /*transition: background-size .5s;*/
+
+    /*background-color: #571845;*/
+    /*color: whitesmoke;*/
+    /*padding-top: 1px;*/
+    /*padding-left: 10px;*/
+    /*padding-bottom: 15px;*/
+    /*transition: .5s;*/
+    /*min-height: 150px;*/
+    /*margin-left: -15px;*/
+    /*margin-right: -15px;*/
+/*}*/
+
+.category {
+    background-color: white;
+    color: #741a61;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    transition: .5s;
+    min-height: 150px;
+    border-top: 3px solid #741a61;
+}
+
+.category:hover {
+
+    border-top: 3px solid #741a61;
+    -webkit-box-shadow: 0px 3px 2px #aab2bd;
+    -moz-box-shadow: 0px 3px 2px #aab2bd;
+    box-shadow: 0px 3px 2px #aab2bd;
+}
+
+/*.deal {*/
+    /*background: url(../images/widePolygonb.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100%;*/
+    /*background-attachment: scroll;*/
+    /*transition: background-size .5s;*/
+
+    /*background-color: #004a68;*/
+    /*color: whitesmoke;*/
+    /*padding-top: 1px;*/
+    /*padding-left: 10px;*/
+    /*padding-bottom: 15px;*/
+    /*transition: .5s;*/
+    /*min-height: 150px;*/
+    /*margin-right: -15px;*/
+    /*margin-left: -15px;*/
+/*}*/
+
+.deal {
+    background-color: white;
+    color: #006185;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    transition: .5s;
+    min-height: 150px;
+    border-top: 3px solid #006185;
+}
+
+.deal:hover {
+
+    border-top: 3px solid #006185;
+
+    -webkit-box-shadow: 0px 3px 2px #aab2bd;
+    -moz-box-shadow: 0px 3px 2px #aab2bd;
+    box-shadow: 0px 3px 2px #aab2bd;
+}
+
+/*.branches {*/
+    /*background: url(../images/widePolygong.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100%;*/
+    /*background-attachment: scroll;*/
+    /*transition: background-size .5s;*/
+
+    /*background-color: #015249;*/
+    /*color: whitesmoke;*/
+    /*padding-top: 1px;*/
+    /*padding-left: 10px;*/
+    /*padding-bottom: 15px;*/
+    /*transition: .5s;*/
+    /*margin-top: 0px;*/
+    /*min-height: 150px;*/
+    /*margin-left: -15px;*/
+/*}*/
+
+.branches {
+
+    background-color: white;
+    color: #015249;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    transition: .5s;
+    margin-top: 0px;
+    min-height: 150px;
+    border-top: 3px solid #015249;
+}
+
+.branches:hover {
+    border-top: 3px solid #015249;
+    -webkit-box-shadow: 0px 3px 2px #aab2bd;
+    -moz-box-shadow: 0px 3px 2px #aab2bd;
+    box-shadow: 0px 3px 2px #aab2bd;
+}
+
+@media (max-width: 992px) {
+    .product {
+        min-height: 130px;
+    }
+    .category {
+        min-height: 130px;
+    }
+    .deal {
+        min-height: 130px;
+    }
+    .branches {
+        min-height: 130px;
+    }
+}
+
+@media (max-width: 767px) {
+    .product {
+        min-height: 100px;
+        margin-right: 0px;
+    }
+    .category {
+        min-height: 100px;
+        margin-left: 0px;
+    }
+    .deal {
+        min-height: 100px;
+        margin-right: 0px;
+    }
+    .branches {
+        min-height: 100px;
+        margin-left: 0px;
+    }
+}

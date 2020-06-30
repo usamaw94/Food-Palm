@@ -1,0 +1,182 @@
+@font-face {
+    font-family: siteFont2;
+    src: url(../fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: siteFont3;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: siteSemiBoldFont3;
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: siteMediumFont3;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: siteBoldFont3;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: siteExtraBoldFont3;
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+body {
+    background: #e8450a;
+    font-family: siteBoldFont3;
+}
+
+.img-logo {
+    height: 280px;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    opacity: 0;
+    -webkit-animation-name: logoFadeIn;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: logoFadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes logoFadeIn {
+    0%   {opacity: 0}
+    100%  {opacity: 1}
+}
+
+/* Standard syntax */
+@keyframes logoFadeIn {
+    0%   {opacity: 0}
+    100%  {opacity: 1}
+}
+
+.seperator1 {
+    border: 1px solid #d33e09;
+    -webkit-box-shadow: 0px 2px 4px 1px rgba(211, 62, 9, 0.3);
+    -moz-box-shadow: 0px 2px 4px 1px rgba(211, 62, 9, 0.3);
+    box-shadow: 0px 2px 4px 1px rgba(211, 62, 9, 0.3);
+}
+
+.seperator2 {
+    border: 1px solid #d33e09;
+    -webkit-box-shadow: 0px -2px 4px 1px rgba(211, 62, 9, 0.3);
+    -moz-box-shadow: 0px -2px 4px 1px rgba(211, 62, 9, 0.3);
+    box-shadow: 0px -2px 4px 1px rgba(211, 62, 9, 0.3);
+}
+
+.btn-login {
+    width: 120px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border: 1px solid whitesmoke;
+    background: #e8450a;
+    color: whitesmoke;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(95, 28, 8);
+    -moz-box-shadow: 0px 0px 5px 0px rgb(95, 28, 8);
+    box-shadow: 0px 0px 5px 0px rgb(95, 28, 8);
+    transition: 0.5s;
+}
+
+.btn-login:hover {
+    background: #333333;
+    color: whitesmoke;
+    border-color: #333333;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover {
+    border: 1px solid whitesmoke;
+    background: #e8450a;
+    color: whitesmoke;
+}
+
+.btn-signup {
+    width: 120px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    background: whitesmoke;
+    color: #e8450a;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(95, 28, 8);
+    -moz-box-shadow: 0px 0px 5px 0px rgb(95, 28, 8);
+    box-shadow: 0px 0px 5px 0px rgb(95, 28, 8);
+    transition: 0.5s;
+}
+
+.btn-signup:hover {
+    background: #333333;
+    color: whitesmoke;
+    border-color: #333333;
+}
+
+.modal-content {
+    background: #333333;
+    border-radius: 0;
+}
+
+.modal-title {
+    font-family: siteFont2;
+    margin-top: 20px;
+}
+
+.close {
+    float: right;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    color: #e8450a;
+    text-shadow: none;
+    filter: alpha(opacity=20);
+    margin-top: -10px;
+    opacity: 1;
+}
+
+.close:hover {
+    color: rgb(232, 69, 10);
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+.modal-body {
+    color: #e8450a;
+}
+
+.modal-body ul {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: left;
+    font-family: siteFont2;
+}
+
+.modal-body ul li {
+    margin-top: 20px;
+}
+
+.modal-link {
+    color: #c9c9c9;
+    transition: .5s;
+}
+
+.modal-link:hover{
+    color: #e8450a;
+    text-decoration: none;
+    font-weight: bold;
+    text-indent: 10px;
+}
+
